@@ -113,6 +113,13 @@
 .product-list-container.visible {
   top: 0;
 }
+.btn-disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  border: none;
+  padding: 10px 20px;
+  color: #666;
+}
 /* LandingPage.css */
 @media screen and (max-width: 768px) {
   .content {
